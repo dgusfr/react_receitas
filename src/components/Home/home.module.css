@@ -1,0 +1,33 @@
+.featured-recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recipe-card h3 {
+  color: #ff6347;
+  font-size: 1.2em;
+}
+
+.recipe-card p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
