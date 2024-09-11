@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "./footer.module.css"; // Importa os estilos
 
 function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
       <p>© 2024 Receitas da Sonia. Todos os direitos reservados.</p>
-      <ul>
+      <ul className={styles.footerLinks}>
         <li>
           <a href="#">Política de Privacidade</a>
         </li>
