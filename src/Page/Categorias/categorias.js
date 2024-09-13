@@ -1,16 +1,23 @@
 import React from "react";
-import styles from "./categorias.module.css"; // Importando os estilos
+import CategoriaButton from "../../Components/CategoriaButton/CategoriaButton";
+import styles from "./categorias.module.css";
 
 function Categorias() {
+  const categorias = [
+    "Café da Manhã",
+    "Almoço",
+    "Jantar",
+    "Sobremesas",
+    "Lanches",
+  ];
+
   return (
     <main>
       <h2>Categorias de Receitas</h2>
       <div className={styles.categoriaList}>
-        <button className={styles.categoriaItem}>Café da Manhã</button>
-        <button className={styles.categoriaItem}>Almoço</button>
-        <button className={styles.categoriaItem}>Jantar</button>
-        <button className={styles.categoriaItem}>Sobremesas</button>
-        <button className={styles.categoriaItem}>Lanches</button>
+        {categorias.map((categoria) => (
+          <CategoriaButton key={categoria} categoria={categoria} />
+        ))}
       </div>
     </main>
   );
