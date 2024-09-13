@@ -1,30 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./header.module.css";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <header className={styles.header}>
-      <nav>
-        <ul className={styles.navList}>
-          <li>
-            <Link to="/" className={styles.navLink}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/categorias" className={styles.navLink}>
-              Categorias
-            </Link>
-          </li>
-          <li>
-            <Link to="/login" className={styles.navLink}>
-              Login
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav className={styles.navbar}>
+      <div className={styles.navHeader}>
+        <Link to="/" className={styles.navLogo}>
+          <img src="./assets/logo.png" alt="Receitas da Sonia" />
+        </Link>
+        <button className={styles.navBtn} onClick={toggleMenu}>
+          <i className="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div className={`${styles.navLinks} ${isOpen ? styles.showLinks : ""}`}>
+        <Link to="/" className={styles.navLink}>
+          Home
+        </Link>
+        <Link to="/about" className={styles.navLink}>
+          Sobre
+        </Link>
+        <Link to="/categorias" className={styles.navLink}>
+          Categorias
+        </Link>
+        <Link to="/receitas" className={styles.navLink}>
+          Receitas
+        </Link>
+        <Link
+          to="/contact"
+          className={`${styles.navLink} ${styles.contactLink}`}
+        >
+          Contato
+        </Link>
+      </div>
+    </nav>
   );
 }
 

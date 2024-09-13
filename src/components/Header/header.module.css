@@ -1,21 +1,54 @@
-.header {
-  background-color: #ff6347;
-  padding: 20px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
-.navList {
-  list-style: none;
+.navHeader {
   display: flex;
-  gap: 15px;
-  justify-content: center;
+  align-items: center;
+}
+
+.navLogo img {
+  width: 150px;
+}
+
+.navBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  transition: var(--transition);
+}
+
+.showLinks {
+  display: flex;
 }
 
 .navLink {
-  color: white;
   text-decoration: none;
-  font-weight: bold;
+  color: var(--dark-gray);
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  transition: var(--transition);
 }
 
 .navLink:hover {
-  text-decoration: underline;
+  color: var(--dark-orange);
+}
+
+.contactLink {
+  background-color: var(--dark-orange);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--borderRadius);
+  text-transform: uppercase;
 }
