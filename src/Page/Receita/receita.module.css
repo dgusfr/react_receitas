@@ -1,0 +1,29 @@
+.receitaContainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--white);
+  box-shadow: var(--shadow-1);
+  border-radius: var(--borderRadius);
+}
+
+.receitaTitulo {
+  font-size: 2rem;
+  color: var(--dark-orange);
+}
+
+.receitaImagem {
+  width: 100%;
+  height: auto;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1.5rem;
+}
+
+ul,
+ol {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
