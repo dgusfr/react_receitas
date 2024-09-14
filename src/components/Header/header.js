@@ -19,11 +19,7 @@ function Header() {
           <i className="fas fa-align-justify"></i>
         </button>
       </div>
-      {/* Adicionar a lógica para mostrar ou esconder o menu */}
       <div className={`${styles.navLinks} ${isOpen ? styles.showLinks : ""}`}>
-        <Link to="/" className={styles.navLink}>
-          Home
-        </Link>
         <Link to="/about" className={styles.navLink}>
           Sobre
         </Link>
@@ -32,12 +28,6 @@ function Header() {
         </Link>
         <Link to="/receitas" className={styles.navLink}>
           Receitas
-        </Link>
-        <Link
-          to="/contact"
-          className={`${styles.navLink} ${styles.contactLink}`}
-        >
-          Contato
         </Link>
       </div>
     </nav>

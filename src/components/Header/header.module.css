@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--light-blue);
+  justify-content: space-between;
+  background-color: var(--white);
   padding: 1rem;
 }
 
@@ -10,11 +11,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .navLogo img {
-  width: 150px;
+  width: 300px;
   height: auto;
 }
 
@@ -26,7 +27,6 @@
   color: var(--dark-gray);
 }
 
-/* Esconder links por padrão */
 .navLinks {
   height: 0;
   overflow: hidden;
@@ -35,16 +35,15 @@
   transition: height 0.3s ease;
 }
 
-/* Mostrar os links quando a classe showLinks é aplicada */
 .showLinks {
-  height: 150px; /* Ajuste conforme a altura necessária para os links */
+  height: 150px;
 }
 
 .navLink {
   color: var(--dark-gray);
   padding: 0.5rem 1rem;
   text-transform: capitalize;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   transition: var(--transition);
 }
 
@@ -66,7 +65,7 @@
   }
 
   .navBtn {
-    display: none; /* Esconder o botão de hambúrguer em telas maiores */
+    display: none;
   }
 
   .navLink {
