@@ -20,3 +20,30 @@
 .footerLinks a:hover {
   text-decoration: underline;
 }
+
+.footer {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  padding: 2rem;
+  text-align: center;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footerLinks a {
+  color: var(--white);
+}
+
+.footerLinks a:hover {
+  color: var(--light-orange);
+}
+
+@media (max-width: 768px) {
+  .footerLinks {
+    flex-direction: column;
+  }
+}

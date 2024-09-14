@@ -52,3 +52,40 @@
   border-radius: var(--borderRadius);
   text-transform: uppercase;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--light-gray);
+  box-shadow: var(--shadow-1);
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  transition: var(--transition);
+}
+
+.navLink {
+  font-size: 1rem;
+  color: var(--dark-gray);
+  transition: var(--transition);
+}
+
+.navLink:hover {
+  color: var(--dark-orange);
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+  }
+
+  .showLinks {
+    display: flex;
+  }
+}
