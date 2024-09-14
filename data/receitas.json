@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "titulo": "Bolo de Chocolate",
+    "imagem": "./assets/bolo-chocolate.jpg",
+    "ingredientes": [
+      "2 xícaras de farinha de trigo",
+      "1 xícara de açúcar",
+      "1 xícara de chocolate em pó",
+      "1/2 xícara de óleo",
+      "2 ovos",
+      "1 xícara de leite",
+      "1 colher de sopa de fermento em pó"
+    ],
+    "preparo": [
+      "Preaqueça o forno a 180°C.",
+      "Misture a farinha, açúcar e chocolate.",
+      "Adicione o óleo, ovos e leite, mexendo até ficar homogêneo.",
+      "Adicione o fermento e misture delicadamente.",
+      "Despeje em uma forma untada e asse por 30-35 minutos."
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Salada de Frutas",
+    "imagem": "./assets/salada-frutas.jpg",
+    "ingredientes": [
+      "1 maçã picada",
+      "1 banana picada",
+      "1 laranja em pedaços",
+      "Morangos a gosto",
+      "Uvas sem sementes",
+      "Suco de 1 limão"
+    ],
+    "preparo": [
+      "Lave e pique todas as frutas.",
+      "Misture todas as frutas em uma tigela.",
+      "Adicione o suco de limão e mexa bem.",
+      "Sirva gelado."
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Macarrão Carbonara",
+    "imagem": "./assets/macarrao-carbonara.jpg",
+    "ingredientes": [
+      "200g de espaguete",
+      "100g de bacon em cubos",
+      "2 ovos",
+      "50g de queijo parmesão ralado",
+      "Sal e pimenta a gosto"
+    ],
+    "preparo": [
+      "Cozinhe o espaguete conforme instruções da embalagem.",
+      "Enquanto o macarrão cozinha, frite o bacon até ficar crocante.",
+      "Em uma tigela, bata os ovos e misture o parmesão.",
+      "Escorra o macarrão e misture com o bacon.",
+      "Retire do fogo e adicione a mistura de ovos e parmesão.",
+      "Mexa bem e sirva com pimenta moída."
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Pão de Queijo",
+    "imagem": "./assets/pao-de-queijo.jpg",
+    "ingredientes": [
+      "500g de polvilho doce",
+      "250ml de leite",
+      "100ml de óleo",
+      "2 ovos",
+      "200g de queijo parmesão ralado",
+      "Sal a gosto"
+    ],
+    "preparo": [
+      "Ferva o leite e o óleo juntos.",
+      "Em uma tigela, misture o polvilho com o sal e despeje a mistura de leite e óleo.",
+      "Deixe esfriar um pouco e adicione os ovos e o queijo.",
+      "Misture bem até formar uma massa homogênea.",
+      "Forme bolinhas e asse em forno preaquecido a 180°C por 20 minutos."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Brigadeiro",
+    "imagem": "./assets/brigadeiro.jpg",
+    "ingredientes": [
+      "1 lata de leite condensado",
+      "3 colheres de sopa de chocolate em pó",
+      "1 colher de sopa de manteiga",
+      "Chocolate granulado"
+    ],
+    "preparo": [
+      "Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.",
+      "Cozinhe em fogo médio, mexendo sempre, até desgrudar do fundo da panela.",
+      "Deixe esfriar e forme bolinhas.",
+      "Passe as bolinhas no granulado e sirva."
+    ]
+  }
+]
