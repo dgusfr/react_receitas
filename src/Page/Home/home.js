@@ -2,6 +2,13 @@ import React from "react";
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
 
+// Importando as imagens do diretório assets
+import chefImage from "../../assets/chef.png";
+import recipe1Image from "../../assets/recipes/recipe-1.jpeg";
+import recipe2Image from "../../assets/recipes/recipe-2.jpeg";
+import recipe3Image from "../../assets/recipes/recipe-3.jpeg";
+import recipe4Image from "../../assets/recipes/recipe-4.jpeg";
+
 function Home() {
   return (
     <main className="page">
@@ -14,7 +21,7 @@ function Home() {
             profissionais do mundo inteiro.
           </p>
         </div>
-        <img src="./assets/chef.png" alt="Chef" className={styles.bannerImg} />
+        <img src={chefImage} alt="Chef" className={styles.bannerImg} />
       </div>
 
       {/* Mais Acessadas */}
@@ -38,7 +45,7 @@ function Home() {
         <div className={styles.recipesList}>
           <Link to="/receita/1" className={styles.recipe}>
             <img
-              src="./assets/recipes/recipe-1.jpeg"
+              src={recipe1Image}
               alt="Carne Assada"
               className={styles.recipeImg}
             />
@@ -47,7 +54,7 @@ function Home() {
           </Link>
           <Link to="/receita/2" className={styles.recipe}>
             <img
-              src="./assets/recipes/recipe-2.jpeg"
+              src={recipe2Image}
               alt="Costela"
               className={styles.recipeImg}
             />
@@ -56,7 +63,7 @@ function Home() {
           </Link>
           <Link to="/receita/3" className={styles.recipe}>
             <img
-              src="./assets/recipes/recipe-3.jpeg"
+              src={recipe3Image}
               alt="Sopa de Vegetais"
               className={styles.recipeImg}
             />
@@ -65,7 +72,7 @@ function Home() {
           </Link>
           <Link to="/receita/4" className={styles.recipe}>
             <img
-              src="./assets/recipes/recipe-4.jpeg"
+              src={recipe4Image}
               alt="Panqueca de Banana"
               className={styles.recipeImg}
             />

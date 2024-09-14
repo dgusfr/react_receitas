@@ -13,12 +13,13 @@ function Header() {
     <nav className={styles.navbar}>
       <div className={styles.navHeader}>
         <Link to="/" className={styles.navLogo}>
-          <img src="./assets/logo.png" alt="Receitas da Sonia" />
+          <img src={require("../../assets/logo.png")} alt="Receitas da Sonia" />
         </Link>
         <button className={styles.navBtn} onClick={toggleMenu}>
           <i className="fas fa-align-justify"></i>
         </button>
       </div>
+      {/* Adicionar a lógica para mostrar ou esconder o menu */}
       <div className={`${styles.navLinks} ${isOpen ? styles.showLinks : ""}`}>
         <Link to="/" className={styles.navLink}>
           Home

@@ -1,17 +1,21 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  justify-content: center;
+  background-color: var(--light-blue);
+  padding: 1rem;
 }
 
 .navHeader {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .navLogo img {
   width: 150px;
+  height: auto;
 }
 
 .navBtn {
@@ -19,25 +23,28 @@
   border: none;
   cursor: pointer;
   font-size: 1.5rem;
+  color: var(--dark-gray);
 }
 
+/* Esconder links por padrão */
 .navLinks {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  transition: var(--transition);
+  transition: height 0.3s ease;
 }
 
+/* Mostrar os links quando a classe showLinks é aplicada */
 .showLinks {
-  display: flex;
+  height: 150px; /* Ajuste conforme a altura necessária para os links */
 }
 
 .navLink {
-  text-decoration: none;
   color: var(--dark-gray);
-  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
   text-transform: capitalize;
+  font-size: 1.2rem;
   transition: var(--transition);
 }
 
@@ -46,46 +53,23 @@
 }
 
 .contactLink {
+  padding: 0.5rem 1rem;
   background-color: var(--dark-orange);
   color: var(--white);
-  padding: 0.5rem 1rem;
   border-radius: var(--borderRadius);
-  text-transform: uppercase;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: var(--light-gray);
-  box-shadow: var(--shadow-1);
-}
-
-.navLinks {
-  display: flex;
-  gap: 1rem;
-  transition: var(--transition);
-}
-
-.navLink {
-  font-size: 1rem;
-  color: var(--dark-gray);
-  transition: var(--transition);
-}
-
-.navLink:hover {
-  color: var(--dark-orange);
-}
-
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .navLinks {
-    flex-direction: column;
-    display: none;
-    width: 100%;
+    height: auto;
+    flex-direction: row;
   }
 
-  .showLinks {
-    display: flex;
+  .navBtn {
+    display: none; /* Esconder o botão de hambúrguer em telas maiores */
+  }
+
+  .navLink {
+    padding: 0.5rem 1rem;
   }
 }
