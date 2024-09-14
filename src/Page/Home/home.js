@@ -1,30 +1,78 @@
 import React from "react";
-import styles from "./home.module.css"; // Importa os estilos
+import styles from "./home.module.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <main>
-      <section>
-        <h2>Receitas em Destaque</h2>
-        <div className={styles.featuredRecipes}>
-          <div className={styles.recipeCard}>
-            <h3>Bolo de Chocolate</h3>
-            <p>Delicioso bolo de chocolate fácil de fazer.</p>
-          </div>
-          <div className={styles.recipeCard}>
-            <h3>Salada de Frutas</h3>
-            <p>Receita refrescante de salada de frutas variadas.</p>
-          </div>
-          <div className={styles.recipeCard}>
-            <h3>Macarrão Carbonara</h3>
-            <p>Clássica receita italiana para seu jantar.</p>
+    <main className="page">
+      {/* Banner */}
+      <div className={styles.banner}>
+        <div className={styles.info}>
+          <h1>As melhores receitas</h1>
+          <p>
+            Aprenda a construir os melhores pratos com receitas criadas por
+            profissionais do mundo inteiro.
+          </p>
+        </div>
+        <img src="./assets/chef.png" alt="Chef" className={styles.bannerImg} />
+      </div>
+
+      {/* Mais Acessadas */}
+      <div className={styles.maisAcessadas}>
+        <h1>Mais acessadas</h1>
+      </div>
+
+      {/* Tags de Receitas */}
+      <section className={styles.recipesContainer}>
+        <div className={styles.tagsContainer}>
+          <h4>receitas</h4>
+          <div className={styles.tagsList}>
+            <Link to="/categorias/carne">Carne (1)</Link>
+            <Link to="/categorias/cafe-da-manha">Café da Manhã (2)</Link>
+            <Link to="/categorias/cenouras">Cenouras (3)</Link>
+            <Link to="/categorias/comida">Comida (4)</Link>
           </div>
         </div>
-      </section>
 
-      <section>
-        <h2>Encontre sua Receita</h2>
-        <input type="text" placeholder="Pesquise receitas..." />
+        {/* Lista de Receitas */}
+        <div className={styles.recipesList}>
+          <Link to="/receita/1" className={styles.recipe}>
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="Carne Assada"
+              className={styles.recipeImg}
+            />
+            <h5>Carne Assada</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/2" className={styles.recipe}>
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              alt="Costela"
+              className={styles.recipeImg}
+            />
+            <h5>Costela</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/3" className={styles.recipe}>
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              alt="Sopa de Vegetais"
+              className={styles.recipeImg}
+            />
+            <h5>Sopa de Vegetais</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/4" className={styles.recipe}>
+            <img
+              src="./assets/recipes/recipe-4.jpeg"
+              alt="Panqueca de Banana"
+              className={styles.recipeImg}
+            />
+            <h5>Panqueca de Banana</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+        </div>
       </section>
     </main>
   );
