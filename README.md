@@ -67,6 +67,42 @@ O projeto é estruturado com o framework **React**, utilizando **CSS Modules** p
 3. Inicie o projeto: `npm start`
 4. Acesse o site em `http://localhost:3000`
 
+## Estrutura do projeto
+
+```
+node_modules/
+public/
+src/
+  assets/
+    logo.png
+    recipes/
+      recipe-1.jpeg
+      recipe-2.jpeg
+      recipe-3.jpeg
+      recipe-4.jpeg
+  Components/
+    Footer/
+      footer.js
+      footer.module.css
+    Header/
+      header.js
+      header.module.css
+  Page/
+    Home/
+      home.js
+      home.module.css
+    Receitas/
+      receitas.js
+      receitas.module.css
+  App.js
+  index.js
+  index.css
+.gitignore
+package-lock.json
+package.json
+README.md
+```
+
 ## Autor
 
 Desenvolvido por Diego Franco
