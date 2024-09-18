@@ -33,12 +33,6 @@ function Header() {
         <Link to="/receitas" className={styles.navLink}>
           Receitas
         </Link>
-        <Link
-          to="/contact"
-          className={`${styles.navLink} ${styles.contactLink}`}
-        >
-          Contato
-        </Link>
       </div>
     </nav>
   );
