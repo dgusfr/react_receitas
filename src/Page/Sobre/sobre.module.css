@@ -1,0 +1,15 @@
+.aboutPage h2 {
+  text-transform: none;
+  font-weight: bold;
+}
+
+.aboutPage {
+  display: grid;
+  gap: 2rem 4rem;
+  padding-bottom: 3rem;
+}
+
+.aboutImg {
+  border-radius: var(--borderRadius);
+  height: 300px;
+}
