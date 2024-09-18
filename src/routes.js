@@ -6,7 +6,6 @@ import Categorias from "./Page/Categorias/categorias";
 import Receitas from "./Page/Receitas/receitas";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import Sobre from "./Page/Sobre/sobre";
 
 function RoutesConfig() {
   return (
@@ -14,7 +13,7 @@ function RoutesConfig() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Sobre />} />
+        <Route path="/sobre" element={<Sobre />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/receitas" element={<Receitas />} />
       </Routes>

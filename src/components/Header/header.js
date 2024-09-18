@@ -20,7 +20,7 @@ function Header() {
         </button>
       </div>
       <div className={`${styles.navLinks} ${isOpen ? styles.showLinks : ""}`}>
-        <Link to="/about" className={styles.navLink}>
+        <Link to="/sobre" className={styles.navLink}>
           Sobre
         </Link>
         <Link to="/categorias" className={styles.navLink}>
