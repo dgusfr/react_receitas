@@ -1,29 +1,79 @@
-.receitaContainer {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: var(--white);
-  box-shadow: var(--shadow-1);
+.recipeHero {
+  display: grid;
+  gap: 3rem;
+}
+
+.recipeHeroImg {
+  height: 300px;
   border-radius: var(--borderRadius);
 }
 
-.receitaTitulo {
-  font-size: 2rem;
+.recipeInfo p {
+  color: var(--dark-gray);
+}
+
+.recipeIcons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.recipeIcons i {
+  font-size: 1.5rem;
   color: var(--dark-orange);
 }
 
-.receitaImagem {
-  width: 100%;
-  height: auto;
+.recipeIcons h5,
+.recipeIcons p {
+  margin-bottom: 0;
+  font-size: 0.85em;
+}
+
+.recipeIcons p {
+  color: var(--dark-gray);
+}
+
+.recipeTags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.recipeTags a {
+  background: var(--dark-orange);
   border-radius: var(--borderRadius);
-  margin-bottom: 1.5rem;
+  color: var(--white);
+  padding: 0.05rem 0.5rem;
+  margin: 0 0.25rem;
+  text-transform: capitalize;
 }
 
-ul,
-ol {
-  margin-left: 1.5rem;
+.recipeContent {
+  padding: 3rem 0;
+  display: grid;
+  gap: 2rem 5rem;
 }
 
-li {
+.singleInstruction header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.5rem;
+}
+
+.singleIngredient {
+  margin-bottom: 0.5rem;
+}
+
+.singleTool {
+  margin-bottom: 0.5rem;
+}
+
+.secondColumn {
+  display: grid;
+  gap: 1rem;
 }
