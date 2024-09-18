@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Page/Home/home";
-import About from "./Page/About/about";
+import Sobre from "./Page/Sobre/sobre";
 import Categorias from "./Page/Categorias/categorias";
 import Receitas from "./Page/Receitas/receitas";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Sobre from "./Page/Sobre/sobre";
 
 function RoutesConfig() {
   return (
@@ -13,8 +14,8 @@ function RoutesConfig() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/categorias" element={<Categorias />} />{" "}
+        <Route path="/about" element={<Sobre />} />
+        <Route path="/categorias" element={<Categorias />} />
         <Route path="/receitas" element={<Receitas />} />
       </Routes>
       <Footer />
