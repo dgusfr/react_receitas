@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
 
-// Importando as imagens do diretório assets
 import chefImage from "../../assets/chef.png";
 import recipe1Image from "../../assets/recipes/recipe-1.jpeg";
 import recipe2Image from "../../assets/recipes/recipe-2.jpeg";
