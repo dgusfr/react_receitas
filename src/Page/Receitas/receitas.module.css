@@ -62,8 +62,6 @@
   letter-spacing: var(--letterSpacing);
 }
 
-/* Responsivo */
-/* Primeira @media screen para até 400px */
 @media screen and (max-width: 400px) {
   .recipesList {
     grid-template-columns: 1fr;
@@ -73,7 +71,6 @@
   }
 }
 
-/* Segunda @media screen para 400px até 800px */
 @media screen and (min-width: 400px) {
   .recipesList {
     grid-template-columns: 1fr 1fr;
