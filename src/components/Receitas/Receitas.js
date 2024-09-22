@@ -1,27 +1,28 @@
-import React, { useEffect, useState } from "react";
-import Receita from "../../Components/Receita/Receita";
-import styles from "./receitas.module.css";
-import receitasData from "../../data/receitas.json";
+import React from "react";
+import Receita from "../../Page/Receita/receita"; // Importação corrigida
+import receitasData from "../../data/receitas.json"; // Caminho do JSON corrigido
+import styles from "./receitas.module.css"; // Importação do CSS corrigida
 
 function Receitas() {
-  const [receitas, setReceitas] = useState([]);
-
-  useEffect(() => {
-    setReceitas(receitasData);
-  }, []);
-
   return (
-    <div className={styles.receitasContainer}>
-      {receitas.map((receita) => (
-        <Receita
-          key={receita.id}
-          ttl={receita.titulo}
-          img={receita.imagem}
-          ing={receita.ingredientes}
-          prep={receita.preparo}
-        />
-      ))}
-    </div>
+    <section className={styles.recipesContainer}>
+      <div className={styles.tagsContainer}>
+        <h4>Receitas</h4>
+        <div className={styles.tagsList}>
+          {receitasData.map((receita) => (
+            <a href={`/receita/${receita.id}`} key={receita.id}>
+              {receita.titulo}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div className={styles.recipesList}>
+        {receitasData.map((receita) => (
+          <Receita key={receita.id} receita={receita} />
+        ))}
+      </div>
+    </section>
   );
 }
 
