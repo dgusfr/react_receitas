@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from "react";
-import styles from "./home.module.css";
-import { Link } from "react-router-dom";
-import receitasData from "../../data/receitas.json";
+import React from "react";
+import styles from "./home.module.css"; // Certifique-se de que essa linha está presente
+import { Link } from "react-router-dom"; // Certifique-se de que essa linha está presente
 
 function Home() {
-  const [receitas, setReceitas] = useState([]);
-
-  useEffect(() => {
-    setReceitas(receitasData.slice(0, 4)); // Carrega as 4 primeiras receitas
-  }, []);
-
   return (
     <main className="page">
+      {/* Banner */}
       <div className={styles.banner}>
         <div className={styles.info}>
           <h1>As melhores receitas</h1>
@@ -20,17 +14,15 @@ function Home() {
             profissionais do mundo inteiro.
           </p>
         </div>
-        <img
-          src={require("../../assets/chef.png")}
-          alt="Chef"
-          className={styles.bannerImg}
-        />
+        <img src={styles.chefImage} alt="Chef" className={styles.bannerImg} />
       </div>
 
+      {/* Mais Acessadas */}
       <div className={styles.maisAcessadas}>
         <h1>Mais acessadas</h1>
       </div>
 
+      {/* Tags de Receitas */}
       <section className={styles.recipesContainer}>
         <div className={styles.tagsContainer}>
           <h4>receitas</h4>
@@ -42,22 +34,44 @@ function Home() {
           </div>
         </div>
 
+        {/* Lista de Receitas */}
         <div className={styles.recipesList}>
-          {receitas.map((receita) => (
-            <Link
-              to={`/receita/${receita.id}`}
-              key={receita.id}
-              className={styles.recipe}
-            >
-              <img
-                src={require(`../../${receita.imagem}`)}
-                alt={receita.titulo}
-                className={styles.recipeImg}
-              />
-              <h5>{receita.titulo}</h5>
-              <p>Preparo: 15min | Cozimento: 5min</p>
-            </Link>
-          ))}
+          <Link to="/receita/1" className={styles.recipe}>
+            <img
+              src={styles.recipe1Image}
+              alt="Carne Assada"
+              className={styles.recipeImg}
+            />
+            <h5>Carne Assada</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/2" className={styles.recipe}>
+            <img
+              src={styles.recipe2Image}
+              alt="Costela"
+              className={styles.recipeImg}
+            />
+            <h5>Costela</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/3" className={styles.recipe}>
+            <img
+              src={styles.recipe3Image}
+              alt="Sopa de Vegetais"
+              className={styles.recipeImg}
+            />
+            <h5>Sopa de Vegetais</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
+          <Link to="/receita/4" className={styles.recipe}>
+            <img
+              src={styles.recipe4Image}
+              alt="Panqueca de Banana"
+              className={styles.recipeImg}
+            />
+            <h5>Panqueca de Banana</h5>
+            <p>Preparo: 15min | Cozimento: 5min</p>
+          </Link>
         </div>
       </section>
     </main>
