@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import styles from "./receita.module.css";
-import receitasData from "../../data/receitas.json"; // Importa o JSON
+import styles from "./receitas.module.css";
+import receitasData from "../../data/receitas.json";
 
 function Receita() {
   const { id } = useParams(); // Pega o ID da URL
