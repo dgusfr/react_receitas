@@ -22,7 +22,7 @@ Um site interativo para amantes da culinária, onde os usuários podem explorar,
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="public/js.png" alt="Logo Linguagem" width="100"/>
+    <img src="public/js.png" alt="Logo Linguagem" width="150"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
     <img src="public/react.png" alt="Logo Linguagem" width="100"/>
