@@ -106,6 +106,18 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 - **Responsabilidade:** Exibe uma mensagem de erro e um link de retorno à Home quando o usuário acessa uma rota inexistente.
 - **Interação:** É carregada automaticamente pelo React Router quando uma rota não é encontrada.
 
+## 3. Integração com JSON
+
+- **JSON de Receitas:** Um arquivo JSON é utilizado para armazenar todas as receitas disponíveis na aplicação. Esse JSON é importado nos componentes de página (`Home`, `Receitas`, `Receita`) e usado para renderizar dinamicamente as informações de cada receita.
+- **Integração na Página Home:** A Home carrega as receitas mais populares diretamente do JSON e exibe seus cards.
+- **Integração na Página Receitas:** Carrega todas as receitas do JSON e exibe em uma lista, permitindo navegação para páginas de receita específica.
+- **Integração na Página Receita:** Usa o ID da receita para buscar os detalhes específicos da receita no JSON e exibe essas informações para o usuário.
+
+### 4. Estilos e CSS Modules
+
+- **CSS Modules:** Utilizados para garantir que os estilos sejam escopados apenas ao componente em que são aplicados, evitando conflitos de CSS. Cada componente tem seu próprio arquivo `.module.css`.
+- **Estilização Global:** Configurações globais de estilo, como cores e fontes, são definidas em `index.css` usando variáveis CSS. Essas variáveis são reutilizadas em todos os componentes para manter a consistência visual.
+
 ## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
