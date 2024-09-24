@@ -47,9 +47,9 @@ O design foi pensado para ser simples, responsivo e focado na experiência do us
 - Login e registro de usuários.
 - Compartilhamento de receitas com a comunidade.
 
-## Explicação
+# Sobre o React Receitas
 
-O projeto é estruturado com o framework **React**, utilizando **CSS Modules** para estilização e roteamento com o **React Router DOM**. Também será integrado com uma API que gerenciará o login, registro e a base de dados de receitas, permitindo que as receitas e preferências dos usuários sejam salvas e recuperadas.
+O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias. Desde o momento em que o usuário acessa a aplicação, ele é direcionado para a página inicial (Home), onde pode visualizar as receitas mais populares, navegar por categorias, e acessar páginas específicas de cada receita.
 
 ### Principais componentes e páginas:
 
