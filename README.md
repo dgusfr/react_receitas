@@ -76,6 +76,36 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 - **Responsabilidade:** Configura as rotas da aplicação. Este arquivo define quais componentes devem ser carregados em cada rota.
 - **Interação:** O `routes.js` interage diretamente com todos os componentes de página (`Home`, `Receitas`, `Receita`, `Sobre`, `Error`) e é responsável por renderizar o `Header` e `Footer` em todas as páginas.
 
+#### `header.js` e `footer.js`
+
+- **Responsabilidade:** `header.js` é responsável por renderizar o cabeçalho e a navegação principal, enquanto `footer.js` renderiza o rodapé da aplicação.
+- **Interação:** Ambos os componentes são importados e utilizados em `routes.js`, garantindo que o cabeçalho e o rodapé estejam presentes em todas as páginas.
+
+#### `home.js` (Página Inicial)
+
+- **Responsabilidade:** Renderiza a página Home, que é a primeira página que o usuário vê ao acessar a aplicação. Exibe um banner e uma lista de receitas populares.
+- **Interação:** Interage com o arquivo JSON para carregar as receitas mais populares e renderizar os links para as páginas de receitas específicas.
+
+#### `receitas.js` (Página de Listagem de Receitas)
+
+- **Responsabilidade:** Renderiza uma lista completa de receitas, permitindo que o usuário explore todas as receitas disponíveis na aplicação.
+- **Interação:** Carrega os dados do JSON e mapeia as receitas para exibi-las como cards clicáveis. Cada card redireciona o usuário para a página da receita específica.
+
+#### `receita.js` (Página de Receita Individual)
+
+- **Responsabilidade:** Exibe os detalhes de uma receita selecionada, como ingredientes, modo de preparo, e outras informações relevantes.
+- **Interação:** Recebe o ID da receita via parâmetro na URL, busca a receita correspondente no JSON, e renderiza as informações detalhadas.
+
+#### `sobre.js` (Página Sobre)
+
+- **Responsabilidade:** Exibe informações sobre o site e seu propósito.
+- **Interação:** Está ligada diretamente ao link "Sobre" na navegação principal e é renderizada quando o usuário clica nesse link.
+
+#### `error.js` (Página 404)
+
+- **Responsabilidade:** Exibe uma mensagem de erro e um link de retorno à Home quando o usuário acessa uma rota inexistente.
+- **Interação:** É carregada automaticamente pelo React Router quando uma rota não é encontrada.
+
 ## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
