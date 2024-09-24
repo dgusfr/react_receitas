@@ -118,6 +118,16 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 - **CSS Modules:** Utilizados para garantir que os estilos sejam escopados apenas ao componente em que são aplicados, evitando conflitos de CSS. Cada componente tem seu próprio arquivo `.module.css`.
 - **Estilização Global:** Configurações globais de estilo, como cores e fontes, são definidas em `index.css` usando variáveis CSS. Essas variáveis são reutilizadas em todos os componentes para manter a consistência visual.
 
+### 5. Gerenciamento de Estado e Hooks
+
+- **useState:** Usado para gerenciar o estado local de componentes, como o menu de navegação (toggle do menu hamburguer).
+- **useEffect (opcional):** Poderia ser utilizado se houvesse necessidade de carregar dados ou executar efeitos colaterais em componentes.
+
+### 6. Navegação e React Router
+
+- **React Router:** Usado para gerenciar a navegação entre as páginas. Cada página (Home, Receitas, Receita, Sobre, Error) é configurada como uma rota em `routes.js`.
+- **Link:** O componente `Link` do React Router é utilizado para criar links de navegação entre as páginas sem recarregar a página inteira.
+
 ## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
