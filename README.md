@@ -128,6 +128,11 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 - **React Router:** Usado para gerenciar a navegação entre as páginas. Cada página (Home, Receitas, Receita, Sobre, Error) é configurada como uma rota em `routes.js`.
 - **Link:** O componente `Link` do React Router é utilizado para criar links de navegação entre as páginas sem recarregar a página inteira.
 
+### 7. Deploy e Configuração Final
+
+- **Build de Produção:** O projeto é compilado para produção utilizando `npm run build`, que gera uma versão otimizada e pronta para deploy.
+- **Hospedagem:** O projeto pode ser hospedado em serviços como Vercel, Netlify ou GitHub Pages. A configuração do deploy depende do serviço escolhido e é feita após a geração do build de produção.
+
 ## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
