@@ -64,6 +64,18 @@ O projeto "React Receitas" é uma aplicação web desenvolvida com React, que pe
 
 A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a manutenção e escalabilidade.
 
+### 2. Fluxo Detalhado e Responsabilidades dos Arquivos
+
+#### `index.js`
+
+- **Responsabilidade:** Ponto de entrada da aplicação React. Ele é responsável por renderizar o componente raiz `RoutesConfig`, que gerencia todas as rotas da aplicação.
+- **Interação:** O `index.js` é responsável por encapsular a aplicação dentro de `React.StrictMode` e utilizar o React Router para definir a navegação entre páginas.
+
+#### `routes.js`
+
+- **Responsabilidade:** Configura as rotas da aplicação. Este arquivo define quais componentes devem ser carregados em cada rota.
+- **Interação:** O `routes.js` interage diretamente com todos os componentes de página (`Home`, `Receitas`, `Receita`, `Sobre`, `Error`) e é responsável por renderizar o `Header` e `Footer` em todas as páginas.
+
 ## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
