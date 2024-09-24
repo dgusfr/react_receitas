@@ -1,6 +1,6 @@
 # Receitas da Sonia
 
-Um site interativo para amantes da culinária, onde os usuários podem explorar, salvar e compartilhar suas receitas favoritas. O projeto busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias, além de permitir o login e registro de usuários.
+Um site interativo para amantes da culinária, onde os usuários podem explorar, salvar e compartilhar suas receitas favoritas. O projeto busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
 
 <!-- ## Interface
 
