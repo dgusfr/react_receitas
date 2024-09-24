@@ -40,7 +40,6 @@ Um site interativo para amantes da culinária, onde os usuários podem explorar,
 - Exploração de receitas por categorias.
 - Filtros de busca por nome de receita e ingredientes.
 - Favoritar receitas para fácil acesso posterior.
-- Login e registro de usuários.
 - Compartilhamento de receitas com a comunidade.
 
 # Sobre o React Receitas
