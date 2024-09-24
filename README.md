@@ -33,6 +33,8 @@ Um site interativo para amantes da culinária, onde os usuários podem explorar,
 
 ![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
 
+<!-- ![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge) -->
+
 ## Descrição
 
 O projeto **Receitas da Sonia** é um site de receitas onde os usuários podem navegar por diversas categorias de pratos, como Café da Manhã, Almoço, Jantar, e Sobremesas. O site permitirá que os usuários marquem receitas como favoritas, façam login e compartilhem suas próprias receitas.
