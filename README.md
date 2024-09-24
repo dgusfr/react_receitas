@@ -51,7 +51,20 @@ O design foi pensado para ser simples, responsivo e focado na experiência do us
 
 O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias. Desde o momento em que o usuário acessa a aplicação, ele é direcionado para a página inicial (Home), onde pode visualizar as receitas mais populares, navegar por categorias, e acessar páginas específicas de cada receita.
 
-### Principais componentes e páginas:
+### Fluxo Geral:
+
+1. **Página Home:** Quando o usuário acessa a aplicação, ele é redirecionado para a página Home. Aqui, ele encontra uma lista de receitas destacadas e links para diferentes categorias.
+2. **Navegação:** A navegação é feita através do componente `Header`, que inclui links para as páginas de categorias, receitas e sobre. O menu de navegação é dinâmico, se adaptando conforme o dispositivo.
+3. **Visualização de Receitas:** Ao clicar em uma receita na Home ou em uma categoria, o usuário é levado à página da receita específica, onde pode ver detalhes como ingredientes e modo de preparo.
+4. **Página de Erro:** Caso o usuário tente acessar uma rota que não existe, ele será redirecionado para uma página 404 personalizada.
+
+## Específico
+
+### 1. Arquitetura do Projeto
+
+A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a manutenção e escalabilidade.
+
+## Principais componentes e páginas:
 
 - **Header**: Barra de navegação do site.
 - **Footer**: Rodapé com links de navegação.
