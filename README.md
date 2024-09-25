@@ -81,11 +81,13 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 #### `home.js` (Página Inicial)
 
 - **Responsabilidade:** Renderiza a página Home, que é a primeira página que o usuário vê ao acessar a aplicação. Exibe um banner e uma lista de receitas populares.
+  
 - **Interação:** Interage com o arquivo JSON para carregar as receitas mais populares e renderizar os links para as páginas de receitas específicas.
 
 #### `receitas.js` (Página de Listagem de Receitas)
 
 - **Responsabilidade:** Renderiza uma lista completa de receitas, permitindo que o usuário explore todas as receitas disponíveis na aplicação.
+  
 - **Interação:** Carrega os dados do JSON e mapeia as receitas para exibi-las como cards clicáveis. Cada card redireciona o usuário para a página da receita específica.
 
 #### `receita.js` (Página de Receita Individual)
