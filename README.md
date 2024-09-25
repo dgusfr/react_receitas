@@ -1,6 +1,8 @@
 # Receitas da Sonia
 
-Um site interativo para amantes da culinária, onde os usuários podem explorar suas receitas favoritas. O projeto busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
+Um site interativo para amantes da culinária, onde os usuários podem explorar suas receitas favoritas. 
+
+O projeto busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
 
 <!-- ## Interface
 
@@ -39,12 +41,12 @@ Um site interativo para amantes da culinária, onde os usuários podem explorar 
 
 - Exploração de receitas por categorias.
 - Filtros de busca por nome de receita e ingredientes.
-- Favoritar receitas para fácil acesso posterior.
-- Compartilhamento de receitas com a comunidade.
 
 # Sobre o React Receitas
 
-O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias. Desde o momento em que o usuário acessa a aplicação, ele é direcionado para a página inicial (Home), onde pode visualizar as receitas mais populares, navegar por categorias, e acessar páginas específicas de cada receita.
+O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias. 
+
+Desde o momento em que o usuário acessa a aplicação, ele é direcionado para a página inicial (Home), onde pode visualizar as receitas mais populares, navegar por categorias, e acessar páginas específicas de cada receita.
 
 ### Fluxo Geral:
 
