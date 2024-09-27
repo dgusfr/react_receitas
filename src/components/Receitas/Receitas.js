@@ -8,9 +8,9 @@ function Receitas() {
       {receitasData.map((receita) => (
         <div key={receita.id} className={styles.recipe}>
           <img
-            src={require(`../../${receita.imagem}`)}
+            src={receita.imagem}
+            className={`${styles.img} ${styles.recipeHeroImg}`}
             alt={receita.titulo}
-            className={styles.recipeImg}
           />
           <h5>{receita.titulo}</h5>
           <p>Preparo: 15min | Cozimento: 5min</p>
