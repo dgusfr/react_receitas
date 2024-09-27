@@ -4,18 +4,19 @@
   justify-content: center;
   justify-content: space-between;
   background-color: var(--white);
+  max-width: 100%;
   padding: 1rem;
+  gap: 50px;
 }
 
 .navHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
 }
 
 .navLogo img {
-  width: 300px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -31,12 +32,13 @@
   height: 0;
   overflow: hidden;
   display: flex;
+  max-width: auto;
   flex-direction: column;
   transition: height 0.3s ease;
 }
 
 .showLinks {
-  height: 150px;
+  height: 100%;
 }
 
 .navLink {
@@ -44,18 +46,12 @@
   padding: 0.5rem 1rem;
   text-transform: capitalize;
   font-size: 1.6rem;
+  max-width: 90%;
   transition: var(--transition);
 }
 
 .navLink:hover {
   color: var(--dark-orange);
-}
-
-.contactLink {
-  padding: 0.5rem 1rem;
-  background-color: var(--dark-orange);
-  color: var(--white);
-  border-radius: var(--borderRadius);
 }
 
 @media screen and (min-width: 768px) {
