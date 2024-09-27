@@ -2,7 +2,7 @@
   {
     "id": 1,
     "titulo": "Bolo de Chocolate",
-    "imagem": "./assets/bolo-chocolate.jpg",
+    "imagem": "./assets/bolo-chocolate.png",
     "ingredientes": [
       "2 xícaras de farinha de trigo",
       "1 xícara de açúcar",
@@ -23,7 +23,7 @@
   {
     "id": 2,
     "titulo": "Salada de Frutas",
-    "imagem": "./assets/salada-frutas.jpg",
+    "imagem": "./assets/salada-frutas.png",
     "ingredientes": [
       "1 maçã picada",
       "1 banana picada",
@@ -42,7 +42,7 @@
   {
     "id": 3,
     "titulo": "Macarrão Carbonara",
-    "imagem": "./assets/macarrao-carbonara.jpg",
+    "imagem": "./assets/macarrao-carbonara.png",
     "ingredientes": [
       "200g de espaguete",
       "100g de bacon em cubos",
@@ -62,7 +62,7 @@
   {
     "id": 4,
     "titulo": "Pão de Queijo",
-    "imagem": "./assets/pao-de-queijo.jpg",
+    "imagem": "./assets/pao-de-queijo.png",
     "ingredientes": [
       "500g de polvilho doce",
       "250ml de leite",
@@ -82,7 +82,7 @@
   {
     "id": 5,
     "titulo": "Brigadeiro",
-    "imagem": "./assets/brigadeiro.jpg",
+    "imagem": "./assets/brigadeiro.png",
     "ingredientes": [
       "1 lata de leite condensado",
       "3 colheres de sopa de chocolate em pó",

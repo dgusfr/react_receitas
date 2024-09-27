@@ -21,10 +21,11 @@ function Receita() {
       <div className={styles.recipePage}>
         <section className={styles.recipeHero}>
           <img
-            src={require(`../../${receita.imagem}`)}
+            src={receita.imagem}
             className={`${styles.img} ${styles.recipeHeroImg}`}
             alt={receita.titulo}
           />
+
           <article className={styles.recipeInfo}>
             <h2>{receita.titulo}</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
