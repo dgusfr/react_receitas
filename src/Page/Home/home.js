@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./home.module.css"; // Certifique-se de que essa linha está presente
-import { Link } from "react-router-dom"; // Certifique-se de que essa linha está presente
+import styles from "./home.module.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <main className="page">
-      {/* Banner */}
       <div className={styles.banner}>
         <div className={styles.info}>
           <h1>As melhores receitas</h1>

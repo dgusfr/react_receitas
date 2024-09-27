@@ -1,5 +1,5 @@
 import React from "react";
-import CategoriaButton from "../../Components/CategoriaButton/CategoriaButton";
+import CategoriaButton from "../../components/CategoriaButton/CategoriaButton";
 import styles from "./categorias.module.css";
 
 function Categorias() {

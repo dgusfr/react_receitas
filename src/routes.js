@@ -4,8 +4,8 @@ import Home from "./Page/Home/home";
 import Sobre from "./Page/Sobre/sobre";
 import Categorias from "./Page/Categorias/categorias";
 import Receitas from "./Page/Receitas/receitas";
-import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/Footer";
 
 function RoutesConfig() {
   return (
