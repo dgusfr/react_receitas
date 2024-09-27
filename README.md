@@ -1,8 +1,8 @@
-# Receitas da Sonia
+# Receitas da Sônia
 
 O site de receitas da Sônia é um site interativo para amantes da culinária, onde os usuários podem explorar suas receitas favoritas. 
 
-O projeto busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
+O projeto foi desenvolvido em React e busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
 
 <!-- ## Interface
 
