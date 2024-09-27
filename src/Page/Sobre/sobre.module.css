@@ -1,15 +1,75 @@
+.page {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.aboutPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 4rem;
+  padding: 3rem;
+}
+
+.aboutImg {
+  width: 100%;
+  height: auto;
+  border-radius: var(--borderRadius);
+}
+
 .aboutPage h2 {
   text-transform: none;
   font-weight: bold;
 }
 
-.aboutPage {
-  display: grid;
-  gap: 2rem 4rem;
-  padding-bottom: 3rem;
+.featuredRecipes {
+  padding: 0;
+  margin: 0;
+  width: 90vw;
 }
 
-.aboutImg {
+.featuredTitle {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.recipesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.recipe {
+  background: var(--white);
   border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 1rem;
+}
+
+.recipe:hover {
+  box-shadow: var(--shadow-3);
+}
+
+.recipeImg {
+  width: 100%;
   height: 300px;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
+}
+
+.recipe h5 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.recipe p {
+  color: var(--black);
+  font-size: 0.9rem;
 }
