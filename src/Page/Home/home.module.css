@@ -2,24 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  background-color: var(--light-yellow);
+  background-color: var(--light-orange);
+  max-width: auto;
+  height: 300px;
+  margin: 10px;
+  margin-top: 36px;
+  border-radius: 30px;
 }
 
 .info h1 {
-  font-size: 2.5rem;
-  color: var(--dark-orange);
+  font-size: 3rem;
+  color: var(--white);
+  font-weight: bold;
+  margin: 30px;
 }
 
 .info p {
   font-size: 1.2rem;
   color: var(--dark-gray);
+  margin: 30px;
 }
 
 .bannerImg {
   width: 300px;
   height: auto;
-  border-radius: var(--borderRadius);
 }
 
 .maisAcessadas h1 {
