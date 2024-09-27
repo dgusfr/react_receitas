@@ -1,28 +1,22 @@
 import React from "react";
-import Receita from "../../Page/Receita/receita"; // Importação corrigida
-import receitasData from "../../data/receitas.json"; // Caminho do JSON corrigido
-import styles from "./receitas.module.css"; // Importação do CSS corrigida
+import receitasData from "../../data/receitas.json";
+import styles from "./receitas.module.css";
 
 function Receitas() {
   return (
-    <section className={styles.recipesContainer}>
-      <div className={styles.tagsContainer}>
-        <h4>Receitas</h4>
-        <div className={styles.tagsList}>
-          {receitasData.map((receita) => (
-            <a href={`/receita/${receita.id}`} key={receita.id}>
-              {receita.titulo}
-            </a>
-          ))}
+    <div className={styles.recipesList}>
+      {receitasData.map((receita) => (
+        <div key={receita.id} className={styles.recipe}>
+          <img
+            src={require(`../../${receita.imagem}`)}
+            alt={receita.titulo}
+            className={styles.recipeImg}
+          />
+          <h5>{receita.titulo}</h5>
+          <p>Preparo: 15min | Cozimento: 5min</p>
         </div>
-      </div>
-
-      <div className={styles.recipesList}>
-        {receitasData.map((receita) => (
-          <Receita key={receita.id} receita={receita} />
-        ))}
-      </div>
-    </section>
+      ))}
+    </div>
   );
 }
 
