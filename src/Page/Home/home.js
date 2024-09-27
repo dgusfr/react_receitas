@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
+import chefImage from "../../assets/chef.png";
 
 function Home() {
   return (
@@ -13,15 +14,13 @@ function Home() {
             profissionais do mundo inteiro.
           </p>
         </div>
-        <img src={styles.chefImage} alt="Chef" className={styles.bannerImg} />
+        <img src={chefImage} alt="Chef" className={styles.bannerImg} />
       </div>
 
-      {/* Mais Acessadas */}
       <div className={styles.maisAcessadas}>
         <h1>Mais acessadas</h1>
       </div>
 
-      {/* Tags de Receitas */}
       <section className={styles.recipesContainer}>
         <div className={styles.tagsContainer}>
           <h4>receitas</h4>
@@ -33,7 +32,6 @@ function Home() {
           </div>
         </div>
 
-        {/* Lista de Receitas */}
         <div className={styles.recipesList}>
           <Link to="/receita/1" className={styles.recipe}>
             <img
