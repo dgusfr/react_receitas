@@ -4,12 +4,12 @@ import styles from "./receitas.module.css";
 
 function Receitas() {
   return (
-    <div className={styles.recipesList}>
+    <div className={styles.receitasContainer}>
       {receitasData.map((receita) => (
         <div key={receita.id} className={styles.recipe}>
           <img
             src={receita.imagem}
-            className={`${styles.img} ${styles.recipeHeroImg}`}
+            className={styles.recipeHeroImg}
             alt={receita.titulo}
           />
           <h5>{receita.titulo}</h5>
