@@ -5,6 +5,38 @@
   padding: 2rem;
 }
 
+.recipe {
+  background: var(--white);
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.recipe:hover {
+  box-shadow: var(--shadow-3);
+}
+
+.recipeHeroImg {
+  width: 100%;
+  height: auto;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
+}
+
+.recipe h5 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+}
+
+.recipe p {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .receitasContainer {
     grid-template-columns: 1fr;
