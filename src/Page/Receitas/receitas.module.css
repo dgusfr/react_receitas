@@ -1,124 +1,15 @@
-.recipeHero {
-  display: grid;
-  gap: 3rem;
-}
-
-.recipeHeroImg {
-  height: 300px;
-  border-radius: var(--borderRadius);
-}
-
-.recipeInfo p {
-  color: var(--dark-gray);
-}
-
-.recipeIcons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin: 2rem 0;
-  text-align: center;
-}
-
-.recipeIcons i {
-  font-size: 1.5rem;
-  color: var(--dark-orange);
-}
-
-.recipeIcons h5,
-.recipeIcons p {
-  margin-bottom: 0;
-  font-size: 0.85em;
-}
-
-.recipeIcons p {
-  color: var(--dark-gray);
-}
-
-.recipeTags {
+.pageContainer {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 0.7em;
-  font-weight: 600;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.recipeTags a {
-  background: var(--dark-orange);
-  border-radius: var(--borderRadius);
-  color: var(--white);
-  padding: 0.05rem 0.5rem;
-  margin: 0 0.25rem;
-  text-transform: capitalize;
-}
-
-.recipeContent {
-  padding: 3rem 0;
-  display: grid;
-  gap: 2rem 5rem;
-}
-
-.singleInstruction {
-  margin-bottom: 1rem;
-}
-
-.singleInstruction header {
+.page {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 500;
-}
-
-.singleInstruction p {
-  margin-top: 0.5rem;
-  color: var(--dark-gray);
-}
-
-.singleIngredient {
-  margin-bottom: 0.5rem;
-}
-
-.singleTool {
-  margin-bottom: 0.5rem;
-}
-
-@media screen and (max-width: 400px) {
-  .recipesList {
-    grid-template-columns: 1fr;
-  }
-  .recipeImg {
-    height: auto;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  .recipesList {
-    grid-template-columns: 1fr 1fr;
-  }
-  .recipeImg {
-    height: 10rem;
-  }
-  .recipesContainer {
-    grid-template-columns: 200px 1fr;
-    gap: 1rem;
-  }
-  .recipe p {
-    font-size: 0.85rem;
-  }
-  .tagsContainer {
-    order: 0;
-  }
-  .tagsList {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .recipe h5 {
-    font-size: 1.15rem;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .recipesList {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 }
