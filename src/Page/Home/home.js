@@ -13,10 +13,7 @@ function Home() {
       <div className={styles.banner}>
         <div className={styles.info}>
           <h1>As melhores receitas</h1>
-          <p>
-            Aprenda a construir os melhores pratos com receitas criadas por
-            profissionais do mundo inteiro.
-          </p>
+          <p>Aprenda a construir os melhores pratos com receitas incríveis.</p>
         </div>
         <img src={chefImage} alt="Chef" className={styles.bannerImg} />
       </div>
