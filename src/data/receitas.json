@@ -18,7 +18,9 @@
       "Adicione o óleo, ovos e leite, mexendo até ficar homogêneo.",
       "Adicione o fermento e misture delicadamente.",
       "Despeje em uma forma untada e asse por 30-35 minutos."
-    ]
+    ],
+    "preparoTempo": "15min",
+    "cozimentoTempo": "35min"
   },
   {
     "id": 2,
@@ -37,7 +39,9 @@
       "Misture todas as frutas em uma tigela.",
       "Adicione o suco de limão e mexa bem.",
       "Sirva gelado."
-    ]
+    ],
+    "preparoTempo": "10min",
+    "cozimentoTempo": "0min"
   },
   {
     "id": 3,
@@ -57,7 +61,9 @@
       "Escorra o macarrão e misture com o bacon.",
       "Retire do fogo e adicione a mistura de ovos e parmesão.",
       "Mexa bem e sirva com pimenta moída."
-    ]
+    ],
+    "preparoTempo": "15min",
+    "cozimentoTempo": "10min"
   },
   {
     "id": 4,
@@ -77,7 +83,9 @@
       "Deixe esfriar um pouco e adicione os ovos e o queijo.",
       "Misture bem até formar uma massa homogênea.",
       "Forme bolinhas e asse em forno preaquecido a 180°C por 20 minutos."
-    ]
+    ],
+    "preparoTempo": "20min",
+    "cozimentoTempo": "20min"
   },
   {
     "id": 5,
@@ -94,6 +102,8 @@
       "Cozinhe em fogo médio, mexendo sempre, até desgrudar do fundo da panela.",
       "Deixe esfriar e forme bolinhas.",
       "Passe as bolinhas no granulado e sirva."
-    ]
+    ],
+    "preparoTempo": "5min",
+    "cozimentoTempo": "15min"
   }
 ]

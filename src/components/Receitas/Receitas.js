@@ -13,7 +13,10 @@ function Receitas() {
             alt={receita.titulo}
           />
           <h5>{receita.titulo}</h5>
-          <p>Preparo: 15min | Cozimento: 5min</p>
+          <p>
+            Preparo: {receita.preparoTempo} | Cozimento:{" "}
+            {receita.cozimentoTempo}
+          </p>
         </div>
       ))}
     </div>
