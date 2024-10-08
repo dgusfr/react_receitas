@@ -38,6 +38,10 @@
   transition: height 0.3s ease;
 }
 
+.navLinks a {
+  margin-right: 2rem;
+}
+
 .showLinks {
   height: 100%;
 }
