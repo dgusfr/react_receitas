@@ -20,6 +20,12 @@
   box-shadow: var(--shadow-3);
 }
 
+.recipeImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 .recipeHeroImg {
   width: 100%;
   height: auto;
