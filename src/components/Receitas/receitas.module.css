@@ -37,6 +37,10 @@
   font-size: 0.9rem;
 }
 
+.recipesList {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 768px) {
   .receitasContainer {
     grid-template-columns: 1fr;
