@@ -52,7 +52,7 @@
 }
 
 .navLink:hover {
-  color: var(--dark-orange);
+  color: var(--light-blue);
 }
 
 @media screen and (min-width: 768px) {
