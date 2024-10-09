@@ -129,6 +129,7 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 ### 6. Navegação e React Router
 
 - **React Router:** Usado para gerenciar a navegação entre as páginas. Cada página (Home, Receitas, Receita, Sobre, Error) é configurada como uma rota em `routes.js`.
+
 - **Link:** O componente `Link` do React Router é utilizado para criar links de navegação entre as páginas sem recarregar a página inteira.
 
 ### 7. Deploy e Configuração Final
