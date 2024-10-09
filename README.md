@@ -108,6 +108,7 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 ## 3. Integração com JSON
 
 - **JSON de Receitas:** Um arquivo JSON é utilizado para armazenar todas as receitas disponíveis na aplicação. Esse JSON é importado nos componentes de página (`Home`, `Receitas`, `Receita`) e usado para renderizar dinamicamente as informações de cada receita.
+
 - **Integração na Página Home:** A Home carrega as receitas mais populares diretamente do JSON e exibe seus cards.
 - **Integração na Página Receitas:** Carrega todas as receitas do JSON e exibe em uma lista, permitindo navegação para páginas de receita específica.
 - **Integração na Página Receita:** Usa o ID da receita para buscar os detalhes específicos da receita no JSON e exibe essas informações para o usuário.
