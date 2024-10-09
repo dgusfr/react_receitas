@@ -1,6 +1,6 @@
 # Receitas da Sônia
 
-O site de receitas da Sônia é um site interativo para amantes da culinária, onde os usuários podem explorar suas receitas favoritas. 
+O site de receitas da Sônia é um site interativo para amantes da culinária, onde os usuários podem explorar suas receitas favoritas.
 
 O projeto foi desenvolvido em React e busca oferecer uma interface simples e intuitiva, permitindo que as receitas sejam facilmente encontradas por categorias.
 
@@ -40,11 +40,12 @@ O projeto foi desenvolvido em React e busca oferecer uma interface simples e int
 ## Funcionalidades
 
 - Exploração de receitas por categorias.
+
 - Filtros de busca por nome de receita e ingredientes.
 
 # Sobre o React Receitas
 
-O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias. 
+O projeto "React Receitas" é uma aplicação web desenvolvida com React, que permite aos usuários visualizar e explorar receitas culinárias.
 
 Desde o momento em que o usuário acessa a aplicação, ele é direcionado para a página inicial (Home), onde pode visualizar as receitas mais populares, navegar por categorias, e acessar páginas específicas de cada receita.
 
@@ -81,13 +82,11 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 #### `home.js` (Página Inicial)
 
 - **Responsabilidade:** Renderiza a página Home, que é a primeira página que o usuário vê ao acessar a aplicação. Exibe um banner e uma lista de receitas populares.
-  
 - **Interação:** Interage com o arquivo JSON para carregar as receitas mais populares e renderizar os links para as páginas de receitas específicas.
 
 #### `receitas.js` (Página de Listagem de Receitas)
 
 - **Responsabilidade:** Renderiza uma lista completa de receitas, permitindo que o usuário explore todas as receitas disponíveis na aplicação.
-  
 - **Interação:** Carrega os dados do JSON e mapeia as receitas para exibi-las como cards clicáveis. Cada card redireciona o usuário para a página da receita específica.
 
 #### `receita.js` (Página de Receita Individual)
