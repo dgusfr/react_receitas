@@ -8,7 +8,7 @@
 .recipe {
   background: var(--white);
   border-radius: var(--borderRadius);
-  box-shadow: var(--shadow-1);
+  /* box-shadow: var(--shadow-1); */
   transition: var(--transition);
   overflow: hidden;
   text-align: center;
