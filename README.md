@@ -145,6 +145,7 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 - **Footer**: Rodapé com links de navegação.
 
 - **Home**: Página principal com receitas em destaque e barra de pesquisa.
+
 - **Categorias**: Página com filtros de receitas por categorias.
 - **Favoritos**: Página personalizada com as receitas favoritas dos usuários.
 
