@@ -97,6 +97,7 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 #### `sobre.js` (Página Sobre)
 
 - **Responsabilidade:** Exibe informações sobre o site e seu propósito.
+
 - **Interação:** Está ligada diretamente ao link "Sobre" na navegação principal e é renderizada quando o usuário clica nesse link.
 
 #### `error.js` (Página 404)
