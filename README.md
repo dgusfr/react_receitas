@@ -123,6 +123,7 @@ A estrutura do projeto segue o padrão de Componentes e Páginas, facilitando a 
 ### 5. Gerenciamento de Estado e Hooks
 
 - **useState:** Usado para gerenciar o estado local de componentes, como o menu de navegação (toggle do menu hamburguer).
+
 - **useEffect (opcional):** Poderia ser utilizado se houvesse necessidade de carregar dados ou executar efeitos colaterais em componentes.
 
 ### 6. Navegação e React Router
